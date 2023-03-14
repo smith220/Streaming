@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
+import Home from "./Home";
 import Room from "./Room";
 import './index.css'
 import Landing from "./Landing";
 import Login from "./Login";
+import Signup from "./Signup";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -16,6 +17,14 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <Landing/>,
+  },
+  {
+    path: '/Signup',
+    element: <Signup/>,
+  },
+  {
+    path: '/home',
+    element: <Home/>,
   },
   {
     path:'/room/:id',

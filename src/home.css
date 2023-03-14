@@ -1,3 +1,55 @@
-.happy{
-background-color: blueviolet;
+body{
+   
 }
+    .enter{
+        font-size: 3vmin;
+    }
+    body{
+        height: 100%;
+    }
+    .info{
+        font-size: 2vw;
+    }
+    
+    .video{
+        background-image: url('.//ismael-paramo-08Roe6Iauok-unsplash.jpg');
+        width: 100%;
+       box-sizing: border-box;
+      
+      background-repeat: no-repeat;
+         background-size: auto; 
+         background-size: 100% 100%; 
+
+        /* background-image: url('./istockphoto-599897720-612x612.jpg');
+        width: 100vw;
+        height: 99vh; 
+    background-position: center; 
+background-size: cover;
+background-repeat: no-repeat;  */
+    }
+    .footer{
+        text-align: center;
+        background-color: rgb(174, 172, 176);
+     padding: 10px;
+        /* opacity: 0.5; */
+        /* color: black; */
+        height: 7vh;
+        color: black;
+        width: 100vw;
+        font-weight: 500;
+    }
+    .span{
+        font-weight: 800;
+        font-size: 55px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: oblique;
+    }
+    .text{ color: rgb(197, 197, 197);
+        font-weight: 400;
+        font-size: 22px;
+    }
+    @media only screen and (max-width: 800px) {
+    .enter{
+        font-size: 3vw;
+    }
+         }

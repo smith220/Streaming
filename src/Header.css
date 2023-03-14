@@ -1,0 +1,37 @@
+.text{
+    font-size: 4vmin
+}
+.img{
+    width: 12vmin;
+}
+.smith{
+    font-size:9vmin;
+    margin-top: -3px;
+    
+}
+.tag{
+    font-size: 3vmin;
+}
+.header{
+    width: 100vw;
+    height: 17vh;
+   opacity: 0.8;
+  
+   border-radius: 5px;
+   border-bottom-right-radius: 10px;
+   border-bottom-left-radius: 10px;
+   background-color: rgb(174, 172, 176);
+}
+@media only screen and (max-width: 800px) {
+ .tag{
+    /* display: none; */
+    font-size: 2vw;
+ }
+ body{
+    height: 100vh;
+ }
+ .cover{
+    height: 100vh;
+    
+ }
+  }

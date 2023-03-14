@@ -1,6 +1,17 @@
 .Login{
     display: flex;
-    align-items: center;
     justify-content: center;
+    height: 26vh;
   
+}
+.details{
+    width: 40vw;
+    height: 80vh;
+}
+
+label{
+    width: 30vw;
+}
+.smith{
+ 
 }
